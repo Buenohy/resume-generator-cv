@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="{{ meta.author }}" />
+    <meta name="keywords" content="{{ meta.keywords }}" />
+    <title>Currículo - {{ info.nome }}</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>{{ info.nome }}</h1>
+      <h2>{{ info.cargo }}</h2>
+      <p class="contact">{{ info.email }} | {{ info.linkedin }}</p>
+    </header>
+
+    <section>
+      <h3>Resumo</h3>
+      <p>{{ resumo }}</p>
+    </section>
+
+    <section>
+      <h3>Experiência Profissional</h3>
+      {% for job in experiencia %}
+      <div class="job">
+        <div class="job-header">
+          <strong>{{ job.empresa }}</strong> - {{ job.cargo }}
+          <span class="date">{{ job.periodo }}</span>
+        </div>
+        <ul>
+          {% for item in job.detalhes %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </section>
+
+    <section>
+      <h3>Skills</h3>
+      <p>{{ skills | join(' • ') }}</p>
+    </section>
+  </body>
+</html>

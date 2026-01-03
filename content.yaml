@@ -1,0 +1,34 @@
+# content.yaml
+info:
+  nome: 'Seu Nome'
+  cargo: 'Software Engineer'
+  email: 'seu.email@exemplo.com'
+  linkedin: 'linkedin.com/in/seunome'
+
+meta:
+  keywords: 'Python, Java, Backend, AWS'
+  author: 'Seu Nome'
+
+resumo: >
+  Engenheiro de software focado em backend com 5 anos de experiência.
+  Especialista em criar APIs escaláveis.
+
+experiencia:
+  - empresa: 'Tech Corp'
+    cargo: 'Senior Dev'
+    periodo: '2020 - Presente'
+    detalhes:
+      - 'Liderança técnica de squad.'
+      - 'Redução de custos da AWS em 30%.'
+
+  - empresa: 'StartUp X'
+    cargo: 'Junior Dev'
+    periodo: '2018 - 2020'
+    detalhes:
+      - 'Desenvolvimento de features em React.'
+
+skills:
+  - Python
+  - Docker
+  - PostgreSQL
+  - React (Basic)
