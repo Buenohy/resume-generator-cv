@@ -1,5 +1,6 @@
 info:
   name: 'Gabriel Bueno Hygino'
+  language: 'en-US'
   phone: '+55 11 9 8873-5414'
   email: 'gabriel.buenohyiginoc@gmail.com'
   linkedin: 'LinkedIn'
@@ -9,12 +10,24 @@ info:
   github: 'GitHub'
   github_url: 'https://github.com/Buenohy'
 
-meta:
-  keywords: 'React, Next.js, TypeScript, Front-End, Software Engineer'
-  author: 'Gabriel Bueno Hygino'
+meta_ats:
+  role_target: 'Software Engineer'
+  subject: 'Desenvolvedor Júnior especialista em React e Next.js focado em criar soluções de front-end eficientes e escaláveis.'
+  keywords: 'React, Next.js, TypeScript, JavaScript, Frontend, Software Engineer, Node.js, Tailwind CSS, Web Performance, SEO'
+  category: 'Resume'
+
+  contributor: 'Gabriel Bueno Hygino'
+  coverage: 'Global / Remote'
+  identifier: 'CV-Gabriel-Bueno-2026'
+  publisher: 'Self-published via Python Automation'
+  relation: 'Application for Software Engineer Position'
+  rights: 'Copyright © 2026 Gabriel Bueno Hygino. All rights reserved.'
+  source: 'http://bueno-portfolio-web.vercel.app/'
+  type: 'Text/PDF'
+  notes: 'Optimized for ATS systems.'
 
 summary: >
-  Proactive and growth-focused Junior Front-End Developer with solid hands-on experience developing web applications using JavaScript, CSS, HTML, and the React ecosystem. I have experience in projects that demonstrate the creation of responsive, high-performance interfaces. I have solid experience in React and a strong interest and ability to quickly learn Angular. I'm seeking an opportunity to apply my skills, collaborate with a team, and grow in an environment that values professional development.
+  Software Engineer enthusiastic about driving impact at Google. Proactive and growth-focused Junior Front-End Developer with solid hands-on experience developing web applications using JavaScript, CSS, HTML, and the React ecosystem. I have experience in projects that demonstrate the creation of responsive, high-performance interfaces. I have solid experience in React and a strong interest and ability to quickly learn Angular. I'm seeking an opportunity to apply my skills, collaborate with a team, and grow in an environment that values professional development.
 
 skills_list:
   - 'React | Next.js | TypeScript | JavaScript | Node.js | Express | Git | HTML | CSS | Sass | Tailwind CSS'
